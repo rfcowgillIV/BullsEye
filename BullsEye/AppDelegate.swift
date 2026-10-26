@@ -8,7 +8,8 @@
 
 import UIKit
 
-@UIApplicationMain
+// 2026 update: @UIApplicationMain -> @main (the old attribute is deprecated in current Swift).
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
